@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/css.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Temporizador</h1>
+    <p id="contador">0 segundos</p>
+    <button onclick="pausarTemporizador()">Pausar</button>
+    <button onclick="iniciarTemporizador()">Iniciar</button>
+
+    <script src="./Js/js.js"></script>
+    <script>
+        window.onload = iniciarTemporizador; // Llama a iniciarTemporizador al cargar la página
+    </script>
+</body>
+
+</html>

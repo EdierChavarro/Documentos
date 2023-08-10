@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     flex-direction: column;
+     gap: 20px;
+     background:linear-gradient(to top, rgba(0, 0, 0, 0.8),rgb(215, 214, 214)), url("../img/one-piece.jpeg") no-repeat center center;
+  }
+
+  h1{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    text-shadow: 1px  1px 5px rgb(0, 0, 0);
+  }
+  p{
+    font-size: 10vw;
+    color: #ffffff;
+    text-shadow: 1px  1px 5px rgb(0, 0, 0);
+    font-size: 54px;
+  }
+    
+
+
+  button{
+    color: #000000;
+    background-color: rgb(255, 249, 249);
+    text-shadow: 1px  1px 5px rgb(72, 70, 70);
+    border-radius: 9px;
+    width: 158px;
+    font-size: 40px;
+  }
